@@ -51,6 +51,12 @@
 
 # COMMAND ----------
 
+dbutils.credentials.assumeRole(
+    "arn:aws:iam::537054356694:role/databricks-poc-Data-Science"
+)
+
+# COMMAND ----------
+
 # MAGIC %run "./Includes/Classroom-Setup"
 
 # COMMAND ----------
